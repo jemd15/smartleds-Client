@@ -6,8 +6,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
-import { MaterializeModule } from "angular2-materialize";
-
 @NgModule({
   declarations: [
     AppComponent,
