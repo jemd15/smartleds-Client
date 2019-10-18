@@ -1,2 +1,17 @@
-
-<router-outlet></router-outlet>
+<section class="row">
+  <div id="sidemenu" class="col s3">
+    <ul id="nav-mobile" class="side-nav fixed blue-gradient">
+      <li class="bold"><a class="white-text waves-effect waves-light no-padding-right title">SmartLeds<a class="secondary-content no-padding-right"><i class="material-icons indigo-text text-accent-1">lightbulb_outline</i></a></a></li>
+      <li class="bold"><a class="indigo-text text-accent-1 waves-effect waves-light no-padding-right">Sobre Materialize</a></li>
+      <li class="bold"><a class="indigo-text text-accent-1 waves-effect waves-light no-padding-right">Introducción</a></li>
+      <li class="bold"><a class="indigo-text text-accent-1 waves-effect waves-light no-padding-right">Mobile</a></li>
+      <li class="bold"><a class="indigo-text text-accent-1 waves-effect waves-light no-padding-right">Vitrina</a></li>
+      <li class="bold"><a class="indigo-text text-accent-1 waves-effect waves-light no-padding-right">Temas</a></li>
+    </ul>
+  </div>
+  <div class="col s9">
+    <div class="container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</section>

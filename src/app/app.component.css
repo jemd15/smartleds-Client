@@ -1,0 +1,20 @@
+.side-nav.fixed {
+  transform: translateX(0%);
+  overflow: hidden;
+}
+
+.side-nav{
+  width: inherit;
+}
+
+li a:hover{
+  color: white !important;
+}
+
+.title{
+  font-size: 20px;
+}
+
+ul{
+  padding-top: 30px;
+}
